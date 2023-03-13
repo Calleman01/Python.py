@@ -1,0 +1,5 @@
+mil1 = int(input("Mätarställning idag: "))
+mil2 = int(input("Mätarställning för ett år sedan: "))
+print("Antal körda mil: ", mil1-mil2)
+liter = float(input("Antal liter bensin: "))
+print(f'Förbrukning per mil: {liter/(mil1-mil2):.2f}')
